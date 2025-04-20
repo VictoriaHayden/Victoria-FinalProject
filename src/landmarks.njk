@@ -1,0 +1,26 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Landmarks{% endblock %}
+
+{% block page_description %}Visit the iconic landmarks of Austin.{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1>Landmarks</h1>
+  <p>Learn about the historic and iconic landmarks that define Austin.</p>
+
+  <div class="row">
+    {% for landmark in landmarks %}
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card h-100">
+        <img src="{{ landmark.image }}" class="card-img-top" alt="{{ landmark.name }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ landmark.name }}</h5>
+          <p class="card-text">{{ landmark.description }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

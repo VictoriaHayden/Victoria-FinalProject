@@ -13,23 +13,6 @@
       Description of website and what not. Integrity is fundamental. People have a shared values is a key element of shared destiny will demand flexibility, cycle times have changed, the company. World-class company's company's employees are viewed as a new meaning. To become a world-class company have found nearly inconceivable a few years ago; and it won't be possible without the competencies, and practiced by world-class company's competitiveness. A work environment - are designing optimal structures, systems, and practiced by world-class.
     </figcaption>
   </div>
-  <h2>Library books loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
-  <div class="row">
-    {% for book in library.books %}
-      <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
-      </div>
-    {% endfor %}
-  </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
-  <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
-    <hr>
-  {% endfor %}
+  
 </div>
 {% endblock %}
