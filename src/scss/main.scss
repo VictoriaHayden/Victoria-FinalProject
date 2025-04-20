@@ -21,6 +21,24 @@
 // Import partials
 @import 'nav';
 
+h1 {
+  padding-bottom: 10rem;
+  padding-top: 5
+}
+
 h3 {
   font-size: 1.5rem;
 }
+
+.jumbotron {
+  color: white;
+  color: white;
+  height: 50vh; 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  padding: 2rem; 
+  background-size: cover;
+  background-position: center;
+}
+

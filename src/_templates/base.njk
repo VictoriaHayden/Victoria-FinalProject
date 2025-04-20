@@ -12,6 +12,10 @@
   <body>
     {% include "_includes/nav.njk" %}
 
+    <div class="jumbotron text-white text-center" style="background-image: url('{{ relative_path }}img/texas-state-capitol-bw.jpg'); background-size: cover; background-position: center; padding: 4rem 2rem;">
+      <h1 class="display-4">Austin Tourism</h1>
+    </div>
+
     {% block content %}{% endblock %}
 
     {% include "_includes/footer.njk" %}
