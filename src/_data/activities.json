@@ -1,0 +1,25 @@
+{
+  "activities": [
+    {
+      "slug": "texas-farmers-market",
+      "name": "Texas Farmer's Market at Mueller",
+      "date_time": "Sundays 10:00am – 2:00pm",
+      "address": "4209 Airport Blvd. Austin, Texas 78722",
+      "url": "https://texasfarmersmarket.org/mueller/"
+    },
+    {
+      "slug": "community-night-thinkery",
+      "name": "Community Night at the Thinkery",
+      "date_time": "Wednesdays 4:00pm – 8:00pm",
+      "address": "1830 Simond Ave., Austin, TX 78723",
+      "url": "https://thinkeryaustin.org/visit-us/#hours"
+    },
+    {
+      "slug": "barton-springs-pool",
+      "name": "Barton Springs Pool",
+      "date_time": "Year-round",
+      "address": "2201 Barton Springs Rd, Austin, TX 78704",
+      "url": "https://www.austintexas.org/listings/barton-springs-pool/4687/"
+    }
+  ]
+}

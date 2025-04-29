@@ -1,23 +1,25 @@
 {
   "files": [
     {
-      "fileId": "1RgMhjtkXlbbf9uzSzy_xPRKwxcVZIZqVytgM_JoU4E4",
-      "type": "doc",
-      "name": "library"
-    },
-    {
-      "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
+      "fileId": "1mfQ15S1_gzh8rKeOqin3Pzxv28jD-3qA_ek1ap_2-dU",
       "type": "sheet",
-      "name": "bookstores"
+      "name": "landmarks"
     }
   ],
   "to_bake": [
     {
-      "template": "bake-book",
-      "data": "library",
-      "array": "books",
+      "template": "landmarks",
+      "data": "landmarks",
+      "array": "landmarks",
       "slug": "slug",
-      "path": "books"
+      "path": "landmarks"
+    },
+    {
+      "template": "activities",
+      "data": "activities",
+      "array": "activities",
+      "slug": "slug",
+      "path": "activities"
     }
   ]
 }
